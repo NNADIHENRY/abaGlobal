@@ -3,7 +3,7 @@ package com.example.henry.abaglobal;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class splashScreen extends AppCompatActivity {
+public class SplashScreen extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
