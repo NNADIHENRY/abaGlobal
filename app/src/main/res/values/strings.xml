@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">abaGlobal</string>
+    <string name="your_name">Your Name</string>
+    <string name="email">      Email Adress</string>
+    <string name="subject">Subject</string>
+    <string name="message">Message</string>
+    <string name="contact">Contact Form</string>
+    <string name="contact_form">Contact Form</string>
+    <string name="send_message">Send Message</string>
 </resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradbackground"
+    tools:context="com.example.henry.abaglobal.ContactPage">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/contact_form"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/etname"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/your_name"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:background="@drawable/border1"/>
+            <EditText
+                android:id="@+id/etemail"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/email"
+                android:paddingLeft="10dp"
+                android:background="@drawable/border1"
+                android:layout_margin="10dp"/>
+            <EditText
+                android:id="@+id/etsubject"
+                android:paddingLeft="10dp"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/subject"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/border1"/>
+
+                <!--<TextView-->
+                    <!--android:layout_margin="10dp"-->
+                    <!--android:textSize="20dp"-->
+                    <!--android:text="@string/message"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--/>-->
+
+            <EditText
+                android:id="@+id/etmessage"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:inputType="textMultiLine"
+                android:hint="@string/message"
+                android:background="@drawable/border1"
+                android:padding="12dp"
+                android:gravity="start"
+                android:layout_margin="10dp"/>
+
+           <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/btnsendmessage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/send_message"/>
+
+           </RelativeLayout>
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imgfacebook"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="16dp"
+                        android:src="@drawable/facebook"
+                        />
+
+                    <ImageView
+                        android:id="@+id/imgtwitter"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                       android:src="@drawable/twitter"
+                        />
+            </LinearLayout>
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
