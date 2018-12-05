@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.example.henry.abaglobal.RegisterationActivity">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_weight="7"
+        android:layout_height="match_parent"
+        android:background="@drawable/blueback2"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:src="@drawable/logonotext"
+          />
+
+        <LinearLayout
+            android:id="@+id/form"
+            android:layout_below="@id/logo"
+            android:layout_width="300dp"
+            android:layout_height="350dp"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:background="#edbed7fe"
+            >
+
+            <EditText
+                android:id="@+id/et_name"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:hint="Name"
+                android:textSize="15dp"
+                android:padding="10dp"
+                android:inputType="text"
+                android:drawableRight="@drawable/user"
+                android:background="@drawable/new_input_white"/>
+            <EditText
+                android:id="@+id/et_username"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:hint="Username"
+                android:inputType="text"
+                android:textSize="15dp"
+                android:padding="10dp"
+                android:drawableRight="@drawable/user"
+                android:background="@drawable/new_input_white"/>
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:hint="AbaGlobal2@gmail.com"
+                android:textSize="15dp"
+                android:inputType="textEmailAddress"
+                android:padding="10dp"
+                android:drawableRight="@drawable/mail"
+                android:background="@drawable/new_input_white"/>
+            <EditText
+                android:id="@+id/et_phone"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:hint="phone"
+                android:inputType="phone"
+                android:textSize="15dp"
+                android:padding="10dp"
+                android:drawableRight="@drawable/phone"
+                android:background="@drawable/new_input_white"/>
+            <EditText
+                android:id="@+id/et_password"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:textSize="15dp"
+                android:drawableRight="@drawable/locks"
+                android:background="@drawable/new_input_white"/>
+            <EditText
+                android:id="@+id/et_confirmpass"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:hint="Confirmpassword"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:textSize="15dp"
+                android:drawableRight="@drawable/locks"
+                android:background="@drawable/new_input_white"/>
+
+            <Button
+                android:id="@+id/btn_reg"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="bottom"
+                android:background="@drawable/new_input"
+                android:layout_marginTop="10dp"
+                android:text="Register"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#04d79d">
+        <TextView
+            android:id="@+id/tv_red_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log In"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:rotation="90"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -6,14 +6,7 @@
 
     </stroke>
     <solid
-        android:color="#ff55be2b">
+        android:color="#02c77d">
 
     </solid>
-    <gradient
-        android:startColor="#303393"
-        android:centerColor="#4437d4"
-        android:endColor="#823cb2"
-        >
-
-    </gradient>
 </shape>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/new_stuff"
+    android:theme="@style/AppTheme"
+    android:orientation="horizontal"
+    tools:context="com.example.henry.abaglobal.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:src="@drawable/logonotext"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/et_Email"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/new_input"
+            android:drawableRight="@drawable/mail"
+            android:hint="Email"
+            android:padding="10dp"
+            android:textColorHint="#fff"
+            android:inputType="textEmailAddress"/>
+
+        <EditText
+            android:id="@+id/et_Password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/new_input"
+            android:drawableRight="@drawable/locks"
+            android:hint="Password"
+            android:padding="10dp"
+            android:textColorHint="#fff"
+            android:inputType="textPassword"/>
+
+        <TextView
+            android:id="@+id/tv_ForgotPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Forgot Password?"
+            android:textColor="#fff"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tv_Login_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log In"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="40dp"
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/twitter_link"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/twitter"
+                android:layout_margin="10dp"/>
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/fb_link"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/facebook"
+                android:layout_margin="10dp"/>
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/linkedin_link"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/linkedin"
+                android:layout_margin="10dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="7"
+        android:background="#303393"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/btn"
+            android:rotation="90"
+            android:layout_centerInParent="true"
+            android:layout_width="500dp"
+            android:layout_height="300dp">
+
+            <ImageView
+                android:id="@+id/img_signUp_red"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/bt" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

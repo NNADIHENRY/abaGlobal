@@ -1,11 +1,10 @@
 package com.example.henry.abaglobal;
 
-
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.AsyncTask;
+import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -13,6 +12,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import com.example.henry.abaglobal.utils.JsonParser;
 import com.example.henry.abaglobal.utils.Utils;
@@ -27,52 +27,49 @@ import es.dmoral.toasty.Toasty;
 
 import static android.widget.Toast.LENGTH_SHORT;
 
+public class RegisterationActivity extends AppCompatActivity {
 
-/**
- * A simple {@link Fragment} subclass.
- */
-public class RegFragment extends Fragment {
 
     final Utils util = new Utils();
     KProgressHUD hud;
 
-    private View reg;
     private EditText etUsername, etName, etEmail, etPhone, etPassword, etConfirmpass;
-    private Button btnregister, btnSignIn;
+    private Button btnregister;
+    private TextView tv_reg;
     private String username, name, email, phone, password, confirmpass;
 
-    public RegFragment() {
-        // Required empty public constructor
-    }
-
-
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        reg = inflater.inflate(R.layout.fragment_reg, container, false);
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_registeration);
 
-        initializeFields();
+            initializeFields();
 
-        btnregister.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                validation();
-            }
-        });
-        return reg;
-    }
+            btnregister.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    validation();
+                }
+            });
+            tv_reg.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    startActivity(new Intent(RegisterationActivity.this, LoginActivity.class));
+                }
+            });
+
+        }
 
 
     private void initializeFields() {
-        etUsername = reg.findViewById(R.id.user_username);
-        etName = reg.findViewById(R.id.user_name);
-        etEmail = reg.findViewById(R.id.etemail);
-        etPhone = reg.findViewById(R.id.etphone);
-        etPassword = reg.findViewById(R.id.etpassword);
-        etConfirmpass = reg.findViewById(R.id.etconfirmpass);
-        btnregister = reg.findViewById(R.id.btnReg);
-//        btnSignIn = reg.findViewById(R.id.btnSignin);
+        etUsername = findViewById(R.id.et_username);
+        etName = findViewById(R.id.et_name);
+        etEmail = findViewById(R.id.et_email);
+        etPhone = findViewById(R.id.et_phone);
+        etPassword = findViewById(R.id.et_password);
+        etConfirmpass = findViewById(R.id.et_confirmpass);
+        btnregister = findViewById(R.id.btn_reg);
+        tv_reg= findViewById(R.id.tv_red_login);
     }
 
     private void validation() {
@@ -84,33 +81,46 @@ public class RegFragment extends Fragment {
         password  = etPassword.getText().toString().trim();
         confirmpass = etConfirmpass.getText().toString().trim();
 
+
+        if (!util.isNetworkAvailable(RegisterationActivity.this)){
+            Toasty.error(this, "Please turn on network Connection", LENGTH_SHORT).show();
+            return;
+        }
         if (TextUtils.isEmpty(username)){
             etUsername.setError("pls choose a username");
+            return;
         }
         if (TextUtils.isEmpty(name)){
             etName.setError("pls input your name");
+            return;
         }
-        if (TextUtils.isEmpty(email) || util.isValidEmail(getContext(), email)){
+        if (TextUtils.isEmpty(email) || !util.isValidEmail(getApplicationContext(), email)){
             etEmail.setError("pls input a valid email");
+            return;
         }
-        if (TextUtils.isEmpty(phone) || util.isValidPhoneNumber(getContext(), phone)){
+        if (TextUtils.isEmpty(phone) || !util.isValidPhoneNumber(getApplicationContext(), phone)){
             etPhone.setError("pls input a valid email");
+            return;
         }
         if (password.length() < 7 || TextUtils.isDigitsOnly(password)){
             etPassword.setError("password must be more than 7 and has alpha and numbers");
+            return;
         }
         if (!password.matches(confirmpass)){
             etConfirmpass.setError("password does not match");
+            return;
         }
-        if(util.isNetworkAvailable(getContext())){
+        if(util.isNetworkAvailable(getApplicationContext())){
             try{
                 new sendPostRequest().execute();
             }catch(Exception e){
+                String m = e.getStackTrace().toString();
+                Toasty.error(getApplicationContext(),"m");
                 e.printStackTrace();
             }
         }else{
             String message = "check your network connection";
-            Toasty.error(getContext(), message, LENGTH_SHORT, true ).show();
+            Toasty.error(getApplicationContext(), message, LENGTH_SHORT, true ).show();
         }
     }
 
@@ -119,7 +129,7 @@ public class RegFragment extends Fragment {
         final Utils util = new Utils();
         KProgressHUD hud;
 
-        private  static final  String REGISTRATION_URL = "10.10.11.142:8000/api/users";
+        private  static final  String REGISTRATION_URL = "http://localhost:8000/api/register";
 
 
         String username = etUsername.getText().toString().trim();
@@ -132,7 +142,7 @@ public class RegFragment extends Fragment {
 
         @Override
         protected void onPreExecute() {
-            hud = KProgressHUD.create(getContext())
+            hud = KProgressHUD.create(getApplicationContext())
                     .setStyle(KProgressHUD.Style.SPIN_INDETERMINATE)
                     .setLabel("please wait...")
                     .setDetailsLabel("Registering..." + name)
@@ -150,6 +160,7 @@ public class RegFragment extends Fragment {
                 HashMap<String, String > params = new HashMap<>();
                 params.put("name", name);
                 params.put("phone", phone);
+                Log.d("jsonpush", "pushing");
                 params.put("password", password);
                 params.put("username", username);
                 params.put("email", email);
@@ -159,15 +170,15 @@ public class RegFragment extends Fragment {
                 if (json != null){
                     return json;
                 }else{
-//                    runOnUiThread(new Runnable() {
-//                        @Override
-//                        public void run() {
-//                            hud.dismiss();
-//                            String message = "Network Error Pls Try Again Later";
-//                            util.toastMessage(getContext(), message);
-//
-//                        }
-//                    });
+                    runOnUiThread(new Runnable() {
+                        @Override
+                        public void run() {
+                            hud.dismiss();
+                            String message = "Network Error Pls Try Again Later";
+                            util.toastMessage(getApplicationContext(), message);
+
+                        }
+                    });
                 }
 
             }catch (Exception e){
@@ -180,13 +191,14 @@ public class RegFragment extends Fragment {
         @Override
         protected void onPostExecute(JSONObject json) {
             hud.dismiss();
+            Log.d("jsonguy", "okay");
             try{
                 if (json != null && json.getString("status").equals(200)){
-                    startActivity(new Intent(getContext(), SplashScreen.class));
+                  startActivity(new Intent(RegisterationActivity.this, SplashScreen.class));
                     Log.d("jsonerror", ""+json);
                 }else if (json != null && json.getString("status").equals(503)){
                     String message = json.getString("message").toString();
-                    Toasty.error(getContext(), message, LENGTH_SHORT, true).show();
+                    Toasty.error(getApplicationContext(), message, LENGTH_SHORT, true).show();
                 }
             } catch (JSONException e) {
                 e.printStackTrace();
@@ -198,3 +210,4 @@ public class RegFragment extends Fragment {
     }
 
 }
+
