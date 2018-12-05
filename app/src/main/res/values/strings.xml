@@ -1,3 +1,128 @@
 <resources>
     <string name="app_name">abaGlobal</string>
+    <string name="frequent">Frequently Asked Questions</string>
+    <string name="q1">Q1: Who can add product on Abaglobal?</string>
+    <string name="q2">Q2: How Do I know if my product is listed?</string>
+    <string name="q3">Q3: How can I upload my product?</string>
+    <string name="q4">Q4: How does Abaglobal pay?</string>
+    <string name="q5">Q5: How do I know if i have a customer?</string>
+    <string name="success">we have lots of success stories</string>
+    <string name="add_list">Add Listing</string>
+    <string name="join_now">Join Now</string>
+    <string name="rules_heading"><b>Rules On Use Of Abaglobal.Com.Ng Site</b></string>
+    <string name="rules">If you browse or otherwise access any content or data on the Abaglobal.com.ng website where this Terms and Condition appears in the footer, and to any Abaglobal.com.ng application, service, or tool (collectively "Resource" or "Service") you agree to be bound by these terms. If you do not agree to these terms, please do not use this Resource.
+By using the Resource with or without Registered account, regardless of how you access or use it, including through mobile devices you are accepting the terms of this Terms of Conditions and any applicable posted guidelines for the Service.
+These Terms of Conditions shall be a legally binding agreement between the User and Administrator, which subject is a provision of access to use of the Resource and to its functionality to the User. Among these Terms of Conditions, the agreement between the User and the Administrator comprises also all specific documents, by which a provision of access to use of the Resource is regulated, including Privacy Policy, and other documents as well being developed by the Administrator from time to time.
+Administrator reserve the right to change Terms and Condition at any time by publishing the new Terms and Conditions on the Resource. By continuing to use the Service you are indicating your acceptance to be bound by the amended Terms and Conditions.
+"Administrator", "we" or "us" - Local Content Administrator or other entity that exercise control over the Local Content Administrator, which renders the Services to the Users.
+"Local Content Administrator" — Abaglobal.com.ng Online Marketplace Nigeria Limited, entity incorporated under the laws of Nigeria.
+"User", "you", "your" – means any natural person eligible to conclude an agreement under the applicable law with Administrator and using any of Services with or without a Registered account. The Users may also act on behalf of the company that provides goods and services and intends to post announcements to the Resource. In this case Users shall be empowered for such representation in a written form.
+"Register entry/account" — an electronic User area within functional system of the Resource, with a help of which he/she is able to manage his/her announcements on the Resource.
+</string>
+    <string name="resource_head"><b>2. Using Resource</b></string>
+    <string name="resource"><b>2.1. Using the Resource, the User shall:</b>
+
+•	2.1.1. provide veridical, complete and current data during registration, ensure them being updated;\n
+•	2.1.2. The User shall immediately change data for accessing to the Resource, if he/she has a suspicion that his/her email address and password used for entering to the Resource were disclosed or probably used by the third parties.\n
+•	2.1.3. notify the Administrator of unauthorized access to the personal account and/or of unauthorized access to and/or use of User’s login and password;\n
+•	2.1.4. prevent other Users’ getting access to the personal account or any specific information contained on it, if this can lead to violation of the laws of Nigeria and/or these Terms and Conditions;\n
+•	2.1.5. avoid posting of information and objects (including references hereto) to the Resource, which can infringe other persons’ rights and interests;\n
+•	2.1.6. avoid posting of information and objects (including references hereto) to the Resource prohibited by these Terms and Conditions and by applicable law.\n
+        <b>2.2. Using the Resource, the User shall not:</b>\n
+
+•	2.2.1. log in as a User on behalf or instead of other person (“false account”). However, the User can log in for and on behalf of other individual or legal entity subject to receipt of necessary well-documented authorities\n
+•	2.2.2. confuse User concerning his/her personality using login and password of any other registered User;\n
+•	2.2.3. illegally download, store, post, distribute or provide access to or in any other way use intellectual property of Users and the third parties;\n
+•	2.2.4. perform bulk mailing to the addresses of other Resource Users without their consents;\n
+•	2.2.5. use software and pursue any other actions aimed to interference with normal operation of the Resource or Users personal areas;\n
+•	2.2.6. download, store, post, distribute and provide access to, or in any other way use viruses, li> and other malware;\n
+•	2.2.7. in any way, including, but not limited to, fraudulently, be way of breach of faith or crack, endeavor to get access to other User’s login and password;\n
+•	2.2.8. perform illegal collection and processing of other individuals’ personal data\n
+•	2.2.9. use the Resource otherwise but as provided herein, except when such actions were directly permitted to the User pursuant to a separate agreement with the Administrator;\n
+•	2.2.10. reproduce, duplicate, copy, sell, carry out trade transactions and resell access to using of the Resource for any purposes, except when such actions were directly permitted to the User pursuant to a separate agreement with the Administrator;\n
+•	2.2.11. post any other information, which is undesirable, disagrees with the purposes of creation of the Resource, encroaches Users’ interests or otherwise presents itself as undesirable for being posted to the Resource;\n
+
+        <b>2.3. Each User shall warrant and acknowledge that:</b>\n
+
+•	2.3.1. he/she undertakes full responsibility for obtaining of all necessary permits in relation to any User content, which he/she represents, downloads, or displays;\n
+•	2.3.2. any User content represented, downloaded or displayed by him/her does not infringe any copyrights, patents, rights for trademarks, firm names, commercial secrets or any other personal or proprietary rights of any third party ("Third party rights"); and\n
+•	2.3.3. he/she is entitled and authorized for sale, trade, distribution or export, or for offer for sale, trade, distribution or export of products and services described in User content, and such sale, trade, distribution or export, or offer does not infringe any Third party rights.\n
+</string>
+
+    <string name="provisions_heading"><b>1. General Provisions</b></string>
+    <string name="provisions">1.1. For the registration of an account, you shall provide necessary veridical and current information for the purpose of generation of User account, which includes User’s unique login (email address), and a Resource password, as well as his/her surname and name. Resource Registration Form may require the User to provide more detailed information.\n
+1.2. Resource is a marketplace that allows users to offer, sell by posting an announcement and buy just about anything in a variety of pricing formats and locations. The actual contract for sale is directly between Users. In such a manner the Administrator is not a party of the transaction, but it only provides a communication trade platform for posting of announcements. We also have no control over and do not guarantee the existence, quality, safety or legality of items advertised; the truth or accuracy of users\' content or listings; the ability of sellers to sell items; the ability of buyers to pay for items; or that a buyer or seller will actually complete a transaction or return an item.\n
+1.3. Administrator does not pursue actions focused on checking of materials posted by Users and expressly disclaims all responsibilities in relation to materials posted by Users.\n
+1.4. Administrator prevents infringement of copyright and intellectual property right infringement in the course of using of the Resource and can delete any User material, which infringes intellectual property rights, at its own discretion without prior notice. We also may terminate Users’ access to the Resource, in the event that such Users repeatedly infringe rights or commit any actions in contrast to these Terms and Conditions.\n
+1.5. We may set limits of active announcements for appropriate columns. The Resource Administrator can render additional services of increasing of a column limit by means of sales of an announcements package.\n
+1.6. The fees we charge for using our Services are listed on the Resource.\n
+</string>
+    <string name="announcement_heading"><b>3. Posting Of Announcements By The User</b></string>
+    <string name="announcement">3.1. Administrator may request User to provide the documents confirming legitimacy of posting of announcements in relation to goods and services.\
+3.2. The User, who posts announcements with regard to sale of goods and services to the Resource, shall place information about them in accordance with these Terms and Conditions and provide precise and complete information about the goods and services, as well as about the terms and conditions of sale of them. When the User places information about goods or services, he/she hereby confirms being legally authorized to sell these goods or render such services pursuant to laws of states, in which they are sold, as well as that he/she has obtained all necessary approvals.\n
+3.3. The User warrants that goods/services he/she offers corresponds with quality norms established by legislation of states, in which they are sold, and are free of the third parties’ claims.\n
+3.4. The User warrants that goods/services he/she offers, provided that any special permits are needed for sale or rendering of them, will be sold/rendered in accordance with the requirements of states, which special authorities will be empowered to supervise such User’s activity.\n
+3.5. The User shall thoroughly check all information about goods and services posted by him/her to the Resource, and, in case of any incorrect information detected, add necessary data in the description of goods or services. If no possibility exists to do so, the User shall adjust incorrect information by having annulled the announcement and posted information about goods or services again.\n
+3.6. Delivery conditions should be included in a goods description, and services terms and conditions should form a part of service description. Goods sale and service terms and conditions developed by the User shall not interfere with these Terms and Conditions and applicable legislation of states, for which they are sold.\n
+3.7. Price of goods or services shall be exact. If it is perceived to be changed due to any specific circumstances, the terms and conditions of price change shall be provided in an announcement.\n
+3.8. The User is not allowed to post or distribute:\n
+•	- false, misleading or deceitful information;\n
+•	- disreputable, defamatory, threatening or harassing, improper, unacceptable information;\n
+•	- discriminative information, or information that facilitates discrimination on the basis of race, sex, religion, nationality, invalidity, sexual orientation or age;\n
+•	- information which violates these Rules;\n
+•	- information which violates applicable laws and regulations (including, without limitation, those regulating export control, consumer protection, unfair competition or false advertising, intellectual property rights);\n
+•	- direct or indirect references to any other web sites, which comprise any content being able to violate these Rules;\n
+•	- vulgar abusive language;\n
+•	- advocacy of hate, violence, discrimination, racism, xenophobia, ethnic conflicts;\n
+•	- appeals to violence and unlawful actions;\n
+•	- data infringing personal (non-proprietary) rights and intellectual property rights of the third parties;\n
+•	- information that facilitates fraud, deception or breach of faith;\n
+•	- information leading to transactioning with stolen or counterfeit objects;\n
+•	- information violating or encroaching on the third party’s property, commercial secret or right to privacy;\n
+•	- personal or identifying information about other persons without their express consent;\n
+•	- information comprising data which may encroach on privacy right, abuse anybody’s honor, merit or business reputation;\n
+•	- information comprising slander or threats directed against whosoever;\n
+•	- information of pornographic nature;\n
+•	- information which may inflict damage to under-ages;\n
+•	- false or misleading information;\n
+•	- viruses or any other techniques being able to damage the Resource, Administrator or other Users;\n
+•	- information about services deemed to be immoral, such as prostitution or other forms contradicting moral or legal norms;\n
+•	- references or information about websites competing with the Resource services;\n
+•	- information representing “spam”, “chain letters”, “pyramids schemes” or undesirable or deceitful commercial advertising;\n
+•	- information distributed by information agencies;\n
+•	- information offering to earn over the Internet without employer’s actual address or direct contacts indicated;\n
+•	- information of multistage and network marketing or any other activity, which requires recruiting of other members, subagents, sub-distributors, etc.;\n
+•	- information of solely promotional nature with no offers of specific goods or services;\n
+•	- information or announcements about counterfeit and imitated goods or unauthorized copies. Unauthorized
+        copies include also goods having been acquired by illegal means, pirated or stolen.
+        Such goods may infringe intellectual property rights, and trademark rights as well;\n
+        •	- information or announcements on sale being able otherwise to violate legislation of state,
+        which this announcement is intended for.</string>
+    <string name="property_right_heading"><b>4. Intellectual Property Rights</b></string>
+    <string name="propertyRight">4.1. If User posts legally owned content to the Resource, he/she hereby grants to other users and the Administrator non-exclusive rights for its use solely in the scope of functionality provided by the Resource, except when such use damages or may damage legally protected right holder’s interests.\n
+4.2. The User also grants to the Administrator a non-exclusive right to use content, which is located on the Resource and legally owned by him/her, without a compensation so that the Administrator would be able to ensure operation of the Resource to the extent determined by its functionality and architecture. The abovementioned non-exclusive right is provided for the period of posting of content to the Resource covering all states over the world. The Administrator is entitled to assign rights described in this clause to the third parties.\n
+4.3. Any use of the Resource or any content on the Resource, except that permitted by these Terms and Conditions or in the event of express right holder’s consent to such use, without prior written consent of a right holder is strictly prohibited.\n
+4.4. Responsibility for violation of exclusive rights. The User shall be solely responsible for any content or other information, which he/she downloads or in any other way make publicly available (posts) on the Resource, or by its means. The User shall not download, distribute or post content to the Resource, if he/she is not properly entitled to such activity. In case of infringement of rights being detected, the rules of filing of notification on the infringement of rights stipulated herein shall be used.\n
+4.5. The Administrator may, but not shall, review the Resource for a presence of any prohibited content and may delete or displace (without notice) any content at its discretion, for any reason or without it, including but not limited to deletion or displacement of content which violates these Terms and Conditions, laws and/or may infringe rights, inflict damages or endanger safety of other Users or the third parties.\n
+4.6. Materials on the Resource, except those posted by the User, including but not limited to texts, software, scripts, graphics, photos, sounds, music, videos, interactive functions, etc. ("Materials") and trademarks, service marks and logos included in it ("Marks") belong to the Administrator representing items of copyright and of any other intellectual property rights. Unauthorized use of such Materials and Marks without prior notice of the Administrator is not allowed.\n</string>
+
+    <string name="q6"><b>Q6: How does Abaglobal Charge?</b></string>
+    <string name="q1Ans">product Owners with any proof of Ownership or Agents with any proof of identity
+       can list product on Abaglobal. All product uploaded on our platform usually go through some form
+       of verification which usually occurs within an hour.</string>
+    <string name="q2Ans">A member of team will contact you via phone call to verify, after which you\'ll
+        receive an auto-generated SMS on the phone number you used in registering confirming the successful
+        listing of the product.</string>
+    <string name="q3Ans">products can be uploaded easily with our easy-to-use uploading portal. It usually
+        takes just 10 mins to complete the add products form. <!-- Our Photographers then proceed to take
+         photographs of your product and assign accordingly. --></string>
+    <string name="q4Ans">Your customers pays you at a go or when  the product has been delivered.
+    </string>
+    <string name="q5Ans">Each time a customer indicates interest to buy your products, a concerned
+        member of team will reach you on phone as well as send you detailed information of the
+        customer.</string>
+    <string name="q6Ans">Each time there\'s a deposit for your hostel from our platform, we\'ll take
+        a little percentage of the deposit made and remit the rest to you via Bank . <strong>So we
+            only get paid when you make money.</strong></string>
+
 </resources>
