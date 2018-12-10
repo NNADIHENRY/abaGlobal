@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.henry.abaglobal">
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         tools:replace="android:icon"
         android:allowBackup="true"
@@ -15,7 +17,12 @@
         <activity android:name=".FAQ">
 
         </activity>
-        <activity android:name=".TermsAndConditions">
+        <activity android:name=".TermsAndConditions"/>
+        android:theme="@style/AppTheme"
+        tools:replace="android:allowBackup,icon,theme,label">
+        <activity android:name=".ContactPage" >
+        </activity>
+        <activity android:name=".Abaglobal_help">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

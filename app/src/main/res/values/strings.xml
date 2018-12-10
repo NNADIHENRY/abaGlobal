@@ -125,4 +125,11 @@ Administrator reserve the right to change Terms and Condition at any time by pub
         a little percentage of the deposit made and remit the rest to you via Bank . <strong>So we
             only get paid when you make money.</strong></string>
 
+    <string name="your_name">Your Name</string>
+    <string name="email">      Email Adress</string>
+    <string name="subject">Subject</string>
+    <string name="message">Message</string>
+    <string name="contact">Contact Form</string>
+    <string name="contact_form">Contact Form</string>
+    <string name="send_message">Send Message</string>
 </resources>
