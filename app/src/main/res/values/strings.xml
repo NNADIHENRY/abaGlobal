@@ -8,7 +8,6 @@
     <string name="q5">Q5: How do I know if i have a customer?</string>
     <string name="success">we have lots of success stories</string>
     <string name="add_list">Add Listing</string>
-    <string name="join_now">Join Now</string>
     <string name="rules_heading"><b>Rules On Use Of Abaglobal.Com.Ng Site</b></string>
     <string name="rules">If you browse or otherwise access any content or data on the Abaglobal.com.ng website where this Terms and Condition appears in the footer, and to any Abaglobal.com.ng application, service, or tool (collectively "Resource" or "Service") you agree to be bound by these terms. If you do not agree to these terms, please do not use this Resource.
 By using the Resource with or without Registered account, regardless of how you access or use it, including through mobile devices you are accepting the terms of this Terms of Conditions and any applicable posted guidelines for the Service.
@@ -132,4 +131,19 @@ Administrator reserve the right to change Terms and Condition at any time by pub
     <string name="contact">Contact Form</string>
     <string name="contact_form">Contact Form</string>
     <string name="send_message">Send Message</string>
+=======
+    <string name="title_activity_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="explore">Explore</string>
+    <string name="join_now">Join Now</string>
+    <string name="add_listing">Add Listing</string>
+    <string name="search">Search</string>
+    <string name="categories">Categories</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

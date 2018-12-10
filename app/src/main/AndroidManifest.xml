@@ -33,10 +33,15 @@
 
         </activity>
         <activity
+
             android:name=".Home"></activity>
             <!--android:label="@string/title_activity_home"-->
             <!--android:theme="@style/AppTheme.NoActionBar" />-->
 
+           android:name=".Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!--<activity android:name=".Image1" />-->
     </application>
 
 </manifest>
