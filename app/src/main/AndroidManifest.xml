@@ -13,13 +13,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".splashScreen"></activity>
+        <activity android:name=".splashScreen">
+
+
+
+        </activity>
         <activity android:name=".FAQ">
 
         </activity>
         <activity android:name=".TermsAndConditions"/>
-        android:theme="@style/AppTheme"
-        tools:replace="android:allowBackup,icon,theme,label">
         <activity android:name=".ContactPage" >
         </activity>
         <activity android:name=".Abaglobal_help">

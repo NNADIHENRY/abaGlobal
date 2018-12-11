@@ -123,7 +123,6 @@ Administrator reserve the right to change Terms and Condition at any time by pub
     <string name="q6Ans">Each time there\'s a deposit for your hostel from our platform, we\'ll take
         a little percentage of the deposit made and remit the rest to you via Bank . <strong>So we
             only get paid when you make money.</strong></string>
-
     <string name="your_name">Your Name</string>
     <string name="email">      Email Adress</string>
     <string name="subject">Subject</string>
@@ -131,7 +130,6 @@ Administrator reserve the right to change Terms and Condition at any time by pub
     <string name="contact">Contact Form</string>
     <string name="contact_form">Contact Form</string>
     <string name="send_message">Send Message</string>
-=======
     <string name="title_activity_home">Home</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
