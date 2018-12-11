@@ -129,7 +129,7 @@ public class RegisterationActivity extends AppCompatActivity {
         final Utils util = new Utils();
         KProgressHUD hud;
 
-        private  static final  String REGISTRATION_URL = "http://localhost:8000/api/register";
+        private  static final  String REGISTRATION_URL = "http://192.168.42.247:3000/api/register";
 
 
         String username = etUsername.getText().toString().trim();
