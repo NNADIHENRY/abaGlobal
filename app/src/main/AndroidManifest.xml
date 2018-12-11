@@ -13,10 +13,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:replace="android:allowBackup,icon,theme,label">
-        <activity android:name=".splashScreen">
-        </activity>
-        <activity android:name=".ContactPage" >
-        </activity>
+        <activity android:name=".splashScreen"></activity>
+        <activity android:name=".ContactPage"></activity>
         <activity android:name=".Abaglobal_help">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,6 +22,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ChatActivity"></activity>
     </application>
 
 </manifest>

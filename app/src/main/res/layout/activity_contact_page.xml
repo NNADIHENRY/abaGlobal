@@ -91,18 +91,19 @@
                 android:layout_marginTop="10dp"
                 android:orientation="horizontal">
 
-                    <ImageView
+                    <de.hdodenhof.circleimageview.CircleImageView
                         android:id="@+id/imgfacebook"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:layout_marginRight="16dp"
+                        android:layout_marginRight="20dp"
                         android:src="@drawable/facebook"
                         />
 
-                    <ImageView
+                    <de.hdodenhof.circleimageview.CircleImageView
                         android:id="@+id/imgtwitter"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
+                        android:layout_marginLeft="10dp"
                        android:src="@drawable/twitter"
                         />
             </LinearLayout>

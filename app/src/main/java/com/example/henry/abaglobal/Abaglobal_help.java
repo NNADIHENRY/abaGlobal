@@ -44,5 +44,13 @@ public class Abaglobal_help extends AppCompatActivity{
                 startActivity(new Intent(Abaglobal_help.this,ContactPage.class));
             }
         });
+
+        chat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Abaglobal_help.this,  ChatActivity.class));
+
+            }
+        });
     }
 }
