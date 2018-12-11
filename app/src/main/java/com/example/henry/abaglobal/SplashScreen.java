@@ -4,7 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class splashScreen extends AppCompatActivity {
+public class SplashScreen extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,9 +20,17 @@ public class splashScreen extends AppCompatActivity {
                     e.printStackTrace();
                 }
                 finally {
-                    startActivity(new Intent(splashScreen.this, Home.class));
+                    startActivity(new Intent(SplashScreen.this, Home.class));
                 }
             }
         };timer.start();
+
     }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        finish();
+    }
+
 }

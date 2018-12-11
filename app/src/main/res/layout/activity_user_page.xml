@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.henry.abaglobal.UserPageActivity">
+
+    <RelativeLayout
+        android:id="@+id/bar"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/blueback2"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/user_prifile_image"
+            android:layout_width="1040dp"
+            android:layout_height="1040dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/userrs"
+            app:civ_border_color="#303393"
+            app:civ_border_width="1dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="80dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="text"
+            android:background="@drawable/buttons"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="12dp"
+            android:id="@+id/button" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

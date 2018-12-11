@@ -130,12 +130,7 @@ Administrator reserve the right to change Terms and Condition at any time by pub
     <string name="contact">Contact Form</string>
     <string name="contact_form">Contact Form</string>
     <string name="send_message">Send Message</string>
-    <string name="title_activity_home">Home</string>
 
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-
-    <string name="action_settings">Settings</string>
     <string name="explore">Explore</string>
     <string name="join_now">Join Now</string>
     <string name="add_listing">Add Listing</string>
@@ -143,5 +138,12 @@ Administrator reserve the right to change Terms and Condition at any time by pub
     <string name="categories">Categories</string>
 
     <!-- TODO: Remove or change this placeholder text -->
+    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
 </resources>
